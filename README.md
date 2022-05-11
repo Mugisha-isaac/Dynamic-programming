@@ -26,3 +26,11 @@ Learning Dynamic programming in advance
   time = 0(n*m^2)
 
   space = 0(m^2)
+
+
+# Time complexity for bestSum algorithm
+
+m  = target sum
+n = numbers
+time = o(n^m*m)
+space = o(m^2)
