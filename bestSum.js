@@ -18,9 +18,10 @@ const bestSum = (target,numbers, memo={}) =>{
       }
    }
 
-   return shoretsCombination;
+    memo[target] = shoretsCombination;
+    return memo[target];
 }
 
 console.log(bestSum(7,[5,3,4,7]));
 console.log(bestSum(8,[2,3,5]))
-console.log(bestSum(100,[1,2,5,25]));
+console.log(bestSum(500,[1,2,5,25]));
