@@ -34,3 +34,8 @@ m  = target sum
 n = numbers
 time = o(n^m*m)
 space = o(m^2)
+
+# Memoized complexity for bestSum algorithm
+
+  time = o(m^2*n)
+  space = o(m^2)
