@@ -12,10 +12,17 @@ Learning Dynamic programming in advance
 
 # Time complexity for howSum function
 
-  // m = target sum
-  // n = number
-  // time = o(n^m*m)
+   m = target sum
+   n = number
+   time = o(n^m*m)
 
 # Space complexity
 
- // space = o(m)
+  space = o(m)
+
+
+# Memoized howSum algorith
+
+  time = 0(n*m^2)
+
+  space = 0(m^2)
