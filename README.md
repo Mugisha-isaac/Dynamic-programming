@@ -9,3 +9,13 @@ Learning Dynamic programming in advance
 # Tricks to make your program effective with increasing it's  time and space complexity
  
 # course from Freecodecamp
+
+# Time complexity for howSum function
+
+  // m = target sum
+  // n = number
+  // time = o(n^m*m)
+
+# Space complexity
+
+ // space = o(m)
