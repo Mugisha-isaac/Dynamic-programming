@@ -26,7 +26,6 @@ Learning Dynamic programming in advance
   time = 0(n*m^2)
 
   space = 0(m^2)
-<<<<<<< HEAD
 
 
 # Time complexity for bestSum algorithm
@@ -40,5 +39,12 @@ space = o(m^2)
 
   time = o(m^2*n)
   space = o(m^2)
-=======
->>>>>>> 880590eeb9bcbd7f8ed2bb2033cfdb7fa5899a4f
+
+
+# Time complexity for canConstruct algorthim
+
+ m = target.length
+ n= wordbank.length
+ 
+ time = o(n^m)
+ space =o(m^2)
