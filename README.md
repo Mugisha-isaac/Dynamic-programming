@@ -48,3 +48,12 @@ space = o(m^2)
  
  time = o(n^m)
  space =o(m^2)
+
+
+# Memoized complexity for canConstruct algorithm
+
+ m = target.length
+ n = wordbank.length
+
+ time = n*m^2
+ space = o(m^2)
