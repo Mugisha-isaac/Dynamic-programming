@@ -57,3 +57,21 @@ space = o(m^2)
 
  time = n*m^2
  space = o(m^2)
+
+
+ # Time and space complexity for brute force canConstruct algorith
+
+  m = target.length
+ n= wordbank.length
+ 
+ time = o(n^m)
+ space =o(m^2)
+
+
+ # Time and space complexity of optimised canConstruct algorithm
+   
+ m = target.length
+ n = wordbank.length
+
+ time = n*m^2
+ space = o(m^2)
