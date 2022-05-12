@@ -1,15 +1,18 @@
-const countConstruct = (target, wordBank)=>{
+const countConstruct = (target, wordBank, memo={})=>{
     let count =0;
+    if(target in memo) return memo[target];
     if(target === '') return 1;
     for(let word of wordBank){
         if(target.indexOf(word)===0){
             let suffix = target.slice(word.length);
-            let res = countConstruct(suffix,wordBank);
-            count = count + res;
+            let res = countConstruct(suffix,wordBank, memo);
+            count = count + res;    
+
         }
     }
 
-    return count;
+    memo[target] = count;
+   return count;
 }
 
 console.log(countConstruct("abcdef",["ab","abc","cd","def","abcd"]));
