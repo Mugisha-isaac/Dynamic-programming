@@ -96,3 +96,10 @@ m= target.length
 
  time = o(n)
  space = o(n)
+
+ # Time and space complexity of GridTravella game using tabulation method
+
+  m:number of rows
+  n:number of cols
+ time = o(mn)
+ space = o(mn)
