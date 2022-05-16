@@ -103,3 +103,10 @@ m= target.length
   n:number of cols
  time = o(mn)
  space = o(mn)
+
+ # Time and space complexity of canSum using tabulation method
+ m= targetSum
+ n=numbers.length
+  
+ time = o(mn)
+ space =  o(m)
