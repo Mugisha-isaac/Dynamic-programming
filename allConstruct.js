@@ -19,5 +19,5 @@ const allConstruct = (target,wordBank, memo={})=>{
 }
 
 
-console.log(allConstruct("purple",["purp","p","ur","le","purpl"]))
+console.log(allConstruct("purple",["purp","p","ur","le","purpl"])) 
 console.log(allConstruct("aaaaaaaaaaaaaaaaaaaaaaz",["a","aa","aaa","aaaa","aaaaa"]));
