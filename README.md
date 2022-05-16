@@ -75,3 +75,18 @@ space = o(m^2)
 
  time = n*m^2
  space = o(m^2)
+
+ # Time and space complexity of brute allConstruct algorithm
+ m = target.length
+ n = wordbank.length
+
+ time = n*m^2
+ space = o(m^2)
+ 
+ # Time and space complexity of optimised  allConstruct algorithm
+
+m= target.length
+ n=wordBank.length
+
+ time = o(n^m)
+ space = o(m)
