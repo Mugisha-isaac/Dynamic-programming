@@ -88,5 +88,11 @@ space = o(m^2)
 m= target.length
  n=wordBank.length
 
- time = o(n^m)
- space = o(m)
+ time = o(n^m)    
+ space = o(m) 
+
+
+ # Tima and space complexity of fibonnacci algorithm using tabulation method
+
+ time = o(n)
+ space = o(n)

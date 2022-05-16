@@ -13,5 +13,5 @@ const howSum = (target,numbers, memo={}) =>{
     memo[target] = null;
     return memo[target];
 }
-
+    
 console.log(howSum(7, [5,3,4,7]));
