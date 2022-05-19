@@ -126,3 +126,12 @@ m= target.length
   time = O(m^2*n)
   space = O(m^2)
 
+
+# Time complexity of canConstruct using tabulation method
+
+ m= target
+ n= wrodBank.length
+
+  time = O(m^2*n)
+  space = O(m)
+
