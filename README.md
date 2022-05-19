@@ -110,3 +110,10 @@ m= target.length
   
  time = o(mn)
  space =  o(m)
+
+ # Time and space complexity of howSum using tabulation method
+
+ m= targetSum
+ numbers.length
+ time = o(m^2*n)
+ space = o(m)
