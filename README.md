@@ -57,3 +57,56 @@ space = o(m^2)
 
  time = n*m^2
  space = o(m^2)
+
+
+ # Time and space complexity for brute force canConstruct algorith
+
+  m = target.length
+ n= wordbank.length
+ 
+ time = o(n^m)
+ space =o(m^2)
+
+
+ # Time and space complexity of optimised canConstruct algorithm
+   
+ m = target.length
+ n = wordbank.length
+
+ time = n*m^2
+ space = o(m^2)
+
+ # Time and space complexity of brute allConstruct algorithm
+ m = target.length
+ n = wordbank.length
+
+ time = n*m^2
+ space = o(m^2)
+ 
+ # Time and space complexity of optimised  allConstruct algorithm
+
+m= target.length
+ n=wordBank.length
+
+ time = o(n^m)    
+ space = o(m) 
+
+
+ # Tima and space complexity of fibonnacci algorithm using tabulation method
+
+ time = o(n)
+ space = o(n)
+
+ # Time and space complexity of GridTravella game using tabulation method
+
+  m:number of rows
+  n:number of cols
+ time = o(mn)
+ space = o(mn)
+
+ # Time and space complexity of canSum using tabulation method
+ m= targetSum
+ n=numbers.length
+  
+ time = o(mn)
+ space =  o(m)
