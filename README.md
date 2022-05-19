@@ -142,3 +142,12 @@ m= target.length
 
   time = o(m^2*n)
   space = o(m)
+
+
+# Time and space complexity of allConstruct algorithm using tabulation method
+
+ m= target
+ n=wordBank
+
+ time = o(n^m)
+ space = o(n^m)
