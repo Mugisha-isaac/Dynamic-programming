@@ -116,4 +116,13 @@ m= target.length
  m= targetSum
  numbers.length
  time = o(m^2*n)
- space = o(m)
+ space = o(m^2)
+
+ # Time and space complexity of bestSum using tabulation method
+
+  m = target
+  n= numbers.length
+
+  time = O(m^2*n)
+  space = O(m^2)
+
